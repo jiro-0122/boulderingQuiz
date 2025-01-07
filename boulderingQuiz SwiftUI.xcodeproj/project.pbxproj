@@ -40,16 +40,6 @@
 			path = "boulderingQuiz SwiftUI";
 			sourceTree = "<group>";
 		};
-		4B0BA3422CE2314000B7374B /* boulderingQuiz SwiftUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "boulderingQuiz SwiftUITests";
-			sourceTree = "<group>";
-		};
-		4B0BA34C2CE2314000B7374B /* boulderingQuiz SwiftUIUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "boulderingQuiz SwiftUIUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +72,6 @@
 			children = (
 				4B0BA5942CF9D64700B7374B /* BoulderingQuiz.mobileprovision */,
 				4B0BA3312CE2313D00B7374B /* boulderingQuiz SwiftUI */,
-				4B0BA3422CE2314000B7374B /* boulderingQuiz SwiftUITests */,
-				4B0BA34C2CE2314000B7374B /* boulderingQuiz SwiftUIUITests */,
 				4B0BA3302CE2313D00B7374B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,9 +124,6 @@
 			dependencies = (
 				4B0BA3412CE2313F00B7374B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				4B0BA3422CE2314000B7374B /* boulderingQuiz SwiftUITests */,
-			);
 			name = "boulderingQuiz SwiftUITests";
 			packageProductDependencies = (
 			);
@@ -158,9 +143,6 @@
 			);
 			dependencies = (
 				4B0BA34B2CE2314000B7374B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4B0BA34C2CE2314000B7374B /* boulderingQuiz SwiftUIUITests */,
 			);
 			name = "boulderingQuiz SwiftUIUITests";
 			packageProductDependencies = (
